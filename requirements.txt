@@ -1,1 +1,4 @@
-fastapi==0.115.6\nuvicorn[standard]==0.34.0\nfastembed==0.5.1\nnumpy<2.0\n
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+fastembed==0.5.1
+numpy<2.0
