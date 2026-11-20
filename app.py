@@ -8,7 +8,7 @@ from fastembed import TextEmbedding
 
 KB_PATH = os.getenv("KB_PATH", "knowledge_base.json")
 EMBED_MODEL = os.getenv("EMBED_MODEL", "BAAI/bge-small-en-v1.5")
-MIN_SIMILARITY = float(os.getenv("MIN_SIMILARITY", "0.30"))
+MIN_SIMILARITY = float(os.getenv("MIN_SIMILARITY", "0.45"))
 with open(KB_PATH, encoding="utf-8") as f:
     passages = json.load(f)
 if not isinstance(passages, list) or len(passages) != 50:
